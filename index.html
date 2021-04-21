@@ -159,20 +159,50 @@
 
             <!-- nav entre les étapes-->
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item text-danger" role="presentation">
-                    <a class="nav-link active"  id="past-tab" data-toggle="tab" href="#past" role="tab" aria-controls="past" aria-selected="true">Passées</a>
-                </li>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">               
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="inProgress-tab" data-toggle="tab" href="#inProgress" role="tab" aria-controls="inProgress" aria-selected="false">En cours</a>
+                    <a class="nav-link active" id="inProgress-tab" data-toggle="tab" href="#inProgress" role="tab" aria-controls="inProgress" aria-selected="false">En cours</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a class="nav-link" id="upComing-tab" data-toggle="tab" href="#upComing" role="tab" aria-controls="upComing" aria-selected="false">À venir</a>
-                </li>                
+                </li>
+                <li class="nav-item text-danger" role="presentation">
+                    <a class="nav-link"  id="past-tab" data-toggle="tab" href="#past" role="tab" aria-controls="past" aria-selected="true">Passées</a>
+                </li>               
             </ul>
             
             <!-- Tab panes -->
             <div class="tab-content">
+
+                <div class="tab-pane" id="inProgress" role="tabpanel" aria-labelledby="inProgress-tab">
+
+                    <ul class="list-group">
+
+                        <li class="list-group-item  bg-light m-1"><span class="text-primary">Avril 2021 - Juin 2021 : </span>
+                            <ul class="list-group">
+                                <li class="list-group-item text-danger">Mise à jour du site du Phare et début de la communication autour de la Fabrique du Phare</li>
+                                <li class="list-group-item text-danger">Lancement de Renov'Ordi</li>
+                                <li class="list-group-item text-danger">Réalisation de l'expérimentation "Prix Louis Guilloux" en partenariat avec le Conseil départemental des Côtes d'Armor</li>                                 
+                            </ul>                          
+                        </li>
+
+                    </ul>                
+
+                </div>
+
+                <div class="tab-pane" id="upComing" role="tabpanel" aria-labelledby="upComing-tab">
+                    <ul class="list-group">
+                         <li class="list-group-item  bg-light m-1"><span class="text-primary">2021-2023 : </span>
+                            <ul class="list-group">
+                                <li class="list-group-item text-danger">Développement de l'activité économique via la Fabrique du Phare</li>
+                                <li class="list-group-item text-danger">L'association devient une association de préfiguration d'une SCIC</li>
+                                <li class="list-group-item text-danger">L'appel du Phare...</li>  
+                            </ul>                       
+                        </li>
+                        
+                    </ul>
+                </div>
+
                 <div class="tab-pane active" id="past" role="tabpanel" aria-labelledby="past-tab">
                     <ul class="list-group">
                         <li class="list-group-item  bg-light m-1"><span class="text-primary">Janvier 2020 -> novembre 2021 : </span>
@@ -221,36 +251,6 @@
 
                     </ul>
 
-                </div> 
-
-
-                <div class="tab-pane" id="inProgress" role="tabpanel" aria-labelledby="inProgress-tab">
-
-                    <ul class="list-group">
-
-                        <li class="list-group-item  bg-light m-1"><span class="text-primary">Avril 2021 - Mai 2021 : </span>
-                            <ul class="list-group">
-                                <li class="list-group-item text-danger">Mise à jour du site du Phare et début de la communication autur de la Fabrique du Phare</li>
-                                <li class="list-group-item text-danger">Lancement de Renov'Ordi</li>
-                                <li class="list-group-item text-danger">Réalisation de l'expérimentation "Prix Louis Guilloux" en partenariat avec le Conseil départemental des Côtes d'Armor</li>                                 
-                            </ul>                          
-                        </li>
-
-                    </ul>                
-
-                </div>
-
-                <div class="tab-pane" id="upComing" role="tabpanel" aria-labelledby="upComing-tab">
-                    <ul class="list-group">
-                         <li class="list-group-item  bg-light m-1"><span class="text-primary">2021-2023 : </span>
-                            <ul class="list-group">
-                                <li class="list-group-item text-danger">Développement de l'activité économique via la Fabrique du Phare</li>
-                                <li class="list-group-item text-danger">L'association devient une association de préfiguration d'une SCIC</li>
-                                <li class="list-group-item text-danger">L'appel du Phare...</li>  
-                            </ul>                       
-                        </li>
-                        
-                    </ul>
                 </div>
                 
             </div>
