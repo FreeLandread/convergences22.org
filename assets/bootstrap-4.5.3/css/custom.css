@@ -5,3 +5,7 @@ body, h1, h2, h3, h4 {
 nav, address {
     font-family: 'Montserrat', sans-serif;
 }
+
+.success {
+    color: #155724;
+}
