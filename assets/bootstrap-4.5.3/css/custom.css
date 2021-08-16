@@ -28,18 +28,13 @@ article {
     font-size: smaller;
 }
 
-.logo {    
-    -moz-flex-grow: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
-    flex-grow: 0;
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;    
-    margin: 0 0 2em 4em;
-    width: 15%;
+.logo {   
+    width: 50%;
 }
 
-.inline li { display:inline;
-    background-color: rgb(211, 209, 209); }
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
