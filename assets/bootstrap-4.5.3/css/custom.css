@@ -9,3 +9,7 @@ nav, address {
 .success {
     color: #155724;
 }
+
+.bg-blanc {
+    background-color: white;
+}
