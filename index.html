@@ -164,11 +164,11 @@
         </div>        
 
      <!-- div Planification -->   
-        <div class="tab-pane container alert alert-danger" id="Realisations">
+        <div class="tab-pane container alert alert-danger" id="realisations">
 
             <h2>Les étapes</h2>
 
-            <p class="text-justify">Le développement de l'activité s'effectue en plusieurs étapes.</p>
+            <p class="text-justify">Le développement de l'activité s'effectue en plusieurs étapes dans le temps.</p>
 
             <!-- nav entre les étapes-->
             <!-- Nav tabs -->
@@ -344,18 +344,27 @@
             </div>
 
             <div class="container mx-auto localisation">
-                <!-- div Localisation --> 
-                <ol class="nav navbar-nav mr-auto mt-2 mt-lg-0 alert">
-                    <li class="breadcrumb-item"><a href="#">France</a></li>
-                    <li class="breadcrumb-item"><a href="#">Bretagne</a></li>
-                    <li class="breadcrumb-item"><a href="#">Côtes d'Armor</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><span class="text-success">
-                        Lamballe&nbsp;Terre&nbsp;&&nbsp;Mer <span class="text-dark">&nbsp;|&nbsp;</span> 
-                        Saint-Brieuc&nbsp;Armor&nbsp;Agglomération<span class="text-dark">&nbsp;|&nbsp;</span>
-                        Leff&nbsp;Armor&nbsp;Communauté<span class="text-dark">&nbsp;|&nbsp;</span>
-                        Guingamp&nbsp;Paimpol&nbsp;Communauté<span class="text-dark">&nbsp;|&nbsp;</span>
-                        Lannion&nbsp;Trégor&nbsp;Communauté</span></li>
-                </ol>
+                <!-- div Localisation -->
+                <nav class="navbar-expand-sm" aria-label="breadcrumb">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBreadCrump" aria-controls="navbarBreadCrump" aria-expanded="false" aria-label="Toggle Tree">
+                        <span class="text-success localisation">Localisation</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse px-4" id="navbarBreadCrump">
+
+                        <ol class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="breadcrumb-item"><a href="#">France</a></li>
+                            <li class="breadcrumb-item"><a href="#">Bretagne</a></li>
+                            <li class="breadcrumb-item"><a href="#">Côtes d'Armor</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><span class="text-success">
+                                Lamballe&nbsp;Terre&nbsp;&&nbsp;Mer&nbsp;<span class="text-dark">|</span> 
+                                Saint&#8209;Brieuc&nbsp;Armor&nbsp;Agglomération&nbsp;<span class="text-dark">|</span>
+                                Leff&nbsp;Armor&nbsp;Communauté&nbsp;<span class="text-dark">|</span>
+                                Guingamp&nbsp;Paimpol&nbsp;Communauté&nbsp;<span class="text-dark">|</span>
+                                Lannion&nbsp;Trégor&nbsp;Communauté</span></li>
+                        </ol>
+                    </div>
+                </nav>  
             </div>
         </footer>
     </div>
