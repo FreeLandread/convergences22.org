@@ -43,3 +43,11 @@ article {
     justify-content: center;
     align-items: center;
 }
+
+#adresse {
+    padding: 1rem;
+}
+
+#localisation {
+    padding-bottom: 1rem;
+}
