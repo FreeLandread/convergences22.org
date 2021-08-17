@@ -30,6 +30,11 @@ article {
 
 .logo {   
     width: 50%;
+    min-width: 100px;
+}
+
+.titre {
+    font-size: 4.5vw;
 }
 
 #conteneur
