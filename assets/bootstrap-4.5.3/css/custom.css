@@ -19,9 +19,10 @@ article {
 }
 
 .datePublication {
-    float: right;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     font-size: smaller;
+    margin-bottom: 1rem;
 }
 
 .logo {   

@@ -112,7 +112,7 @@ ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 dt {
@@ -5363,7 +5363,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .alert-warning {
   color: #856404;
   background-color: #fff3cd;
-  border-color: #ffeeba;
+  border-color: #d8ae2f;
 }
 
 .alert-warning hr {
