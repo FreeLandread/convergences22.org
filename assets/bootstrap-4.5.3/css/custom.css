@@ -30,6 +30,7 @@ article {
 }
 
 .photo {
+    width: 77%;
     max-width: 120px;
 }
 
