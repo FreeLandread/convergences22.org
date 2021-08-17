@@ -43,6 +43,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: .5rem;
 }
 
 #menu {
@@ -50,8 +51,8 @@ article {
 }
 
 .infosContact {
-    max-width: 450px;
-    padding: 1rem;
+    max-width: 370px;
+    padding-top: 1rem;
     font-size: 1rem;
     background-color: #d3fdfd;
     border-radius: 0.375em;
