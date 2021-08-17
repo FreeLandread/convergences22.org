@@ -20,7 +20,7 @@
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
-  --success: #28a745;
+  --success: #86aa02;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -364,14 +364,20 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 1.2rem;
+  color: var(--success);
 }
 
 h2, .h2 {
   font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: var(--secondary);
 }
 
 h3, .h3 {
   font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration-color: #155724;
 }
 
 h4, .h4 {
@@ -5328,8 +5334,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-success {
   color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
+  background-color: #c2d57f;
+  border-color: var(--success);
 }
 
 .alert-success hr {
@@ -10091,7 +10097,7 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .text-success {
-  color: #28a745 !important;
+  color: var(--success) !important;
 }
 
 a.text-success:hover, a.text-success:focus {
