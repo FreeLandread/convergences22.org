@@ -7,7 +7,7 @@ nav, address {
 }
 
 #navHaut {
-    margin-top: -2rem;
+    margin-top: -4rem;
 }
 
 footer {
@@ -94,7 +94,7 @@ article button:not(.collapsed):after {
 }    
 @media (max-width: 50em) {
     #menu {
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: 700;
     }    
 }
