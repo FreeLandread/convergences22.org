@@ -6,6 +6,15 @@ nav, address {
     font-family: 'Montserrat', sans-serif;
 }
 
+footer {
+    font-size: 1rem;
+}
+
+address {
+    font-size: .8rem;
+}
+
+
 .bg-blanc {
     background-color: white;
 }
@@ -84,8 +93,7 @@ article button:not(.collapsed):after {
         font-size: .8rem;
         font-weight: 700;
     }    
-}    
-
+}
 
 .infosContact {
     max-width: 370px;
