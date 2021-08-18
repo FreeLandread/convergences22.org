@@ -78,7 +78,14 @@ article button:not(.collapsed):after {
 #menu {
     font-size: 1.2vw;
     font-weight: 700;
-}
+}    
+@media (max-width: 50em) {
+    #menu {
+        font-size: .8rem;
+        font-weight: 700;
+    }    
+}    
+
 
 .infosContact {
     max-width: 370px;
