@@ -53,6 +53,10 @@ article button:not(.collapsed):after {
     content: '- Réduire';
 }
 
+article p {
+    text-align: justify;
+}
+
 .datePublication {
     display: flex;
     justify-content: flex-end;
