@@ -16,11 +16,11 @@ article {
     border: solid 1px rgba(210, 215, 217, 0.75);
     margin-bottom: 1em;
     padding: 1.5em;
-    line-height: 1.5;   
+    line-height: 1.2;   
 }
 
 article div.collapse:not(.show) {
-    height: 5rem !important;
+    height: 4.5rem !important;
     overflow: hidden;
   
     display: -webkit-box;
@@ -29,20 +29,18 @@ article div.collapse:not(.show) {
 }
 
 article div.collapsing {
-    min-height: 5rem !important;
+    min-height: 4.5rem !important;
 }
-article a {
-    display: flex;
-    justify-content: flex-start;
-    font-size: smaller;
-    margin-top: 1rem;
+article button {
+   
+    margin-top: .5rem;
 }
 
-article a.collapsed:after  {
+article button.collapsed:after  {
     content: '+ Lire Plus';
 }
 
-article a:not(.collapsed):after {
+article button:not(.collapsed):after {
     content: '- Réduire';
 }
 
@@ -50,7 +48,7 @@ article a:not(.collapsed):after {
     display: flex;
     justify-content: flex-end;
     font-size: smaller;
-    margin-bottom: 1rem;
+    margin: .5rem 0 .5rem 0;
 }
 
 .logo {   
