@@ -18,14 +18,15 @@
 
   <body>
     
-    <div class="container-fluid tab-content">   
-        
-        <div class="container conteneur">
+    <div class="container-fluid tab-content">
+
+    <!-- bandeau d'entête --> 
+        <header class="container conteneur">
             <div style="width: 30%; margin-top: 1em;"><img src="assets/images/logoWeb-convergences22.png" class="logo" alt="logo de convergences 22"></div>
-            <div style="width: 70%;"><h1 class="text-success titre">Transitions & Numérique</h1></div>                     
-        </div>
-        <!-- nav Menu General -->
-        
+            <div style="width: 70%;margin-top: 2em;"><h1 class="text-success titre">Transitions & Numérique</h1></div>                     
+        </header>
+
+    <!-- nav Menu General -->        
         <nav class="navbar navbar-expand-sm sticky-top bg-blanc">            
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,16 +39,16 @@
                 <!-- Nav tabs -->
                 <ul id="menu" class="nav navbar-nav nav-tabs ml-auto mt-2 mt-lg-0" data-target="#navbarToggler" data-toggle="collapse">
                     <li class="nav-item ml-auto">
-                        <a class="nav-link active text-success" data-toggle="tab" href="#Actualites">Actualités</a>
+                        <a class="nav-link text-success active" data-toggle="tab" href="#Services">Offre de services</a>
                     </li>
                     <li class="nav-item ml-auto">
-                    <a class="nav-link text-primary" data-toggle="tab" href="#Presentation">Présentation</a>
+                        <a class="nav-link text-primary" data-toggle="tab" href="#Presentation">Présentation</a>
                     </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link text-warning" data-toggle="tab" href="#Actualites">Actualités</a>
+                    </li>                    
                     <li class="nav-item ml-auto">
                     <a class="nav-link text-danger" data-toggle="tab" href="#Realisations">Réalisations</a>
-                    </li>                   
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" data-toggle="tab" href="#Services"><span style="color: DarkGoldenRod;">Offre de services</span></a>
                     </li>
                     <li class="nav-item ml-auto">
                         <a class="nav-link text-info" data-toggle="tab" href="#Ressources">Ressources</a>
@@ -57,48 +58,30 @@
             </div>
 
         </nav>
-     
-    <!-- div Actualités -->
-        <div class="tab-pane container active alert alert-success " id="Actualites" >
 
-            <h2>Actus</h2>
+    <!-- div Offre de services -->
+        <div class="tab-pane container active  alert alert-success" id="Services">
 
-            <div class="conteneur">
-                
-                <article>    
-                    <h3>Rénov'Ordi démarre</h3>
-                    <div class="collapse" id="collapseSummary">
-                        <p><strong>La CAE 22</strong> et <strong> la BGE 22</strong> sont les premiers clients de Rénov'Ordi.</p>                
-                        <p>Vous souhaitez rénover un parc de machines qui pourraient toujours servir à des usages simples, cette offre est faite pour vous.<br />
-                        voir l'offre Rénov'Ordi</p>                    
-                    </div>                
-                    <span class="datePublication">le 17/07/2021</span>
-                    <button class="btn btn-outline-secondary btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSummary" aria-expanded="false" aria-controls="collapseSummary"></button>
-                </article> 
+            <h2>les services en construction</h2>
 
-                <article>
-                    <h3>Fin d'expérimentation pour la Fabrique du Phare</h3>
-                    <div class="collapse" id="collapseSummary1">
-                        <p>
-                            Depuis fin octobre, nous avions démarré une coopération avec Noémie Letissier afin de porter un projet de coopérative de services numériques à destination du territoire. La Fabrique du Phare a porté le développement de deux projets web contributifs permettant la médiation numérique.<br />
-                        </p>
-                        <p>Deux boîtes à sons ont été réalisées :<br />                
-                        <a href="https://punchlinebox.bzh" target="_blank">https://punchlinebox.bzh</a> -> La punchlineBox pour les Nuits de la lecture pour SBAA<br />
-                        <a href="https://boiteasonsprixlouisguilloux.fr" target="_blank">https://boiteasonsprixlouisguilloux.fr</a> -> La boite à son du Prix Louis Guilloux 2021 pour le département des Côtes d'Armor<br />
-                        <br />
-                        La collaboration s'est terminée au mois de juin.
-                        </p>                    
-                    </div>                
-                    <span class="datePublication">le 29/06/2021</span>
-                    <button class="btn btn-outline-secondary btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary1"></button>
-                    
-                </article>
-            
-            </div>
+            <p class="text-justify"> Respectueux des possibilités de chaque acteur, individuel ou collectif, le principe de financement est en premier lieu basé sur la solidarité et le mode de participation
+                est contributif. La coopérative est ouverte à la participation libre des acteurs pour permettre de financer les structures n'ayant pas les moyens de le faire.</p>
+            <p class="text-justify"> Pour chaque proposition de service, une évaluation des coûts est présentée de façon transparente. Cette évaluation est le prix conseillé. 
+                Un accord est ensuite trouvé sur un montant alors envoyé comme devis.</p>
+
+            <ul class="list-group">
+                <li class="list-group-item m-1">Création d'un pôle ressource</li>
+                <li class="list-group-item m-1">Cartographie dynamique du territoire</li>
+                <li class="list-group-item m-1">Accompagnements de projets</li>
+                <li class="list-group-item m-1">Rencontres d'acteurs locaux</li>
+                <li class="list-group-item m-1">Mutualisations de services</li>
+                <li class="list-group-item m-1">Atelier de recyclage - logiciel libre</li>
+                <li class="list-group-item m-1">Sensibilisation | Initiation | Formation | Conseil</li>
+            </ul> 
+
         </div>
      
-    <!-- div Présentation -->
-        
+    <!-- div Présentation -->        
         <div class="tab-pane container" id="Presentation" >
 
             <div class="conteneur">
@@ -183,15 +166,50 @@
                 </article>
 
             </div>
-        </div>        
+        </div> 
+        
+    <!-- div Actualités -->
+        <div class="tab-pane container alert alert-warning" id="Actualites" >
 
-     <!-- div Planification -->   
-        <div class="tab-pane container alert alert-danger" id="Realisations">
+            <h2>Actus</h2>
 
-            <h2>Les étapes</h2>
+            <div class="conteneur">
+                
+                <article>    
+                    <h3>Rénov'Ordi démarre</h3>
+                    <div class="collapse" id="collapseSummary">
+                        <p><strong>La CAE 22</strong> et <strong> la BGE 22</strong> sont les premiers clients de Rénov'Ordi.</p>                
+                        <p>Vous souhaitez rénover un parc de machines qui pourraient toujours servir à des usages simples, cette offre est faite pour vous.<br />
+                        voir l'offre Rénov'Ordi</p>                    
+                    </div>                
+                    <span class="datePublication">le 17/07/2021</span>
+                    <button class="btn btn-outline-secondary btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSummary" aria-expanded="false" aria-controls="collapseSummary"></button>
+                </article> 
 
-            <p class="text-justify">Le développement de l'activité s'effectue en plusieurs étapes dans le temps.</p>
+                <article>
+                    <h3>Fin d'expérimentation pour la Fabrique du Phare</h3>
+                    <div class="collapse" id="collapseSummary1">
+                        <p>
+                            Depuis fin octobre, nous avions démarré une coopération avec Noémie Letissier afin de porter un projet de coopérative de services numériques à destination du territoire. La Fabrique du Phare a porté le développement de deux projets web contributifs permettant la médiation numérique.<br />
+                        </p>
+                        <p>Deux boîtes à sons ont été réalisées :<br />                
+                        <a href="https://punchlinebox.bzh" target="_blank">https://punchlinebox.bzh</a> -> La punchlineBox pour les Nuits de la lecture pour SBAA<br />
+                        <a href="https://boiteasonsprixlouisguilloux.fr" target="_blank">https://boiteasonsprixlouisguilloux.fr</a> -> La boite à son du Prix Louis Guilloux 2021 pour le département des Côtes d'Armor<br />
+                        <br />
+                        La collaboration s'est terminée au mois de juin.
+                        </p>                    
+                    </div>                
+                    <span class="datePublication">le 29/06/2021</span>
+                    <button class="btn btn-outline-secondary btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary1"></button>
+                    
+                </article>
+            
+            </div>
+        </div>
 
+    <!-- div Réalisations -->   
+        <div class="tab-pane container alert alert-danger" id="Realisations">            
+            
             <!-- nav entre les étapes-->
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">               
@@ -215,7 +233,7 @@
 
                         <li class="list-group-item  bg-light m-1"><span class="text-primary">Avril 2021 - Juin 2021 : </span>
                             <ul class="list-group">
-                                <li class="list-group-item text-danger">Mise à jour du site du Phare et début de la communication autour de la Fabrique du Phare</li>
+                                <li class="list-group-item text-danger">Mise à jour du site et début de la communication Convergences</li>
                                 <li class="list-group-item text-danger">Lancement de Renov'Ordi</li>
                                 <li class="list-group-item text-danger">Réalisation de l'expérimentation "Prix Louis Guilloux" en partenariat avec le Conseil départemental des Côtes d'Armor</li>                                 
                             </ul>                          
@@ -290,33 +308,9 @@
                 
             </div>
 
-            
-
         </div>
 
-        <!-- div Offre de services -->
-        <div class="tab-pane container alert alert-warning" id="Services">
-
-            <h2>les services en construction</h2>
-
-            <p class="text-justify"> Respectueux des possibilités de chaque acteur, individuel ou collectif, le principe de financement est en premier lieu basé sur la solidarité et le mode de participation
-                est contributif. La coopérative est ouverte à la participation libre des acteurs pour permettre de financer les structures n'ayant pas les moyens de le faire.</p>
-            <p class="text-justify"> Pour chaque proposition de service, une évaluation des coûts est présentée de façon transparente. Cette évaluation est le prix conseillé. 
-                Un accord est ensuite trouvé sur un montant alors envoyé comme devis.</p>
-
-            <ul class="list-group">
-                <li class="list-group-item m-1">Création d'un pôle ressource</li>
-                <li class="list-group-item m-1">Cartographie dynamique du territoire</li>
-                <li class="list-group-item m-1">Accompagnements de projets</li>
-                <li class="list-group-item m-1">Rencontres d'acteurs locaux</li>
-                <li class="list-group-item m-1">Mutualisations de services</li>
-                <li class="list-group-item m-1">Atelier de recyclage - logiciel libre</li>
-                <li class="list-group-item m-1">Sensibilisation | Initiation | Formation | Conseil</li>
-            </ul> 
-
-        </div>   
-
-        <!-- div Ressources -->
+    <!-- div Ressources -->
         <div class="tab-pane container alert alert-info" id="Ressources">
 
             <h2>Ressources</h2>
@@ -333,6 +327,7 @@
 
         </div>
 
+    <!-- bas de page -->
         <footer>
 
             <div class="container mx-auto">
@@ -389,6 +384,7 @@
                 </nav>  
             </div>
         </footer>
+        
     </div>
 
     <!-- Optional JavaScript -->
