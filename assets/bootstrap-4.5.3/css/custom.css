@@ -6,10 +6,6 @@ nav, address {
     font-family: 'Montserrat', sans-serif;
 }
 
-#navHaut {
-    margin-top: -4rem;
-}
-
 footer {
     font-size: 1rem;
 }
@@ -17,7 +13,6 @@ footer {
 address {
     font-size: .8rem;
 }
-
 
 .bg-blanc {
     background-color: white;
