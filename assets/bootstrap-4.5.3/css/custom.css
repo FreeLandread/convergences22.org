@@ -16,7 +16,8 @@ article {
     border: solid 1px rgba(210, 215, 217, 0.75);
     margin-bottom: 1em;
     padding: 1.5em;
-    line-height: 1.2;   
+    line-height: 1.3;
+    font-size: .9rem;   
 }
 
 article div.collapse:not(.show) {
@@ -32,7 +33,7 @@ article div.collapsing {
     min-height: 4.5rem !important;
 }
 article button {
-   
+    height: 1.7rem;
     margin-top: .5rem;
 }
 
@@ -74,7 +75,7 @@ article button:not(.collapsed):after {
 }
 
 #menu {
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .infosContact {
