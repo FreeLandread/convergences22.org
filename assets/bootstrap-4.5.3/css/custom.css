@@ -6,6 +6,10 @@ nav, address {
     font-family: 'Montserrat', sans-serif;
 }
 
+#navHaut {
+    margin-top: -2rem;
+}
+
 footer {
     font-size: 1rem;
 }
