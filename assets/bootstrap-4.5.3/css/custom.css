@@ -19,8 +19,7 @@ address {
 }
 
 article {
-    width:33rem;   
-    background-color: #d8ebc5;
+    width:33rem;
     border-radius: 0.375em;
     border: solid 1px rgba(210, 215, 217, 0.75);
     margin: .5rem ;
@@ -40,6 +39,19 @@ article div.collapse:not(.show) {
 article div.collapsing {
     min-height: 4.5rem !important;
 }
+
+#Realisations article div.collapse:not(.show) {
+    height: 10rem !important;
+    overflow: hidden;  
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+}
+
+#Realisations article div.collapsing {
+    min-height: 10rem !important;
+}
+
 article button {
     height: 1.7rem;
     margin-top: .5rem;
@@ -105,16 +117,17 @@ article div {
     align-items: center;
 }
 
-#menu {
+#menu, #myTab  {
     font-size: 1.2vw;
     font-weight: 700;
 }    
 @media (max-width: 50em) {
-    #menu {
+    #menu, #myTab {
         font-size: .7rem;
         font-weight: 700;
     }    
 }
+
 
 .infosContact {
     max-width: 370px;
