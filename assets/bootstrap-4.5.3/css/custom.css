@@ -57,6 +57,10 @@ article p {
     text-align: justify;
 }
 
+article div {
+    margin-top: .5rem;
+}
+
 .datePublication {
     display: flex;
     justify-content: flex-end;
