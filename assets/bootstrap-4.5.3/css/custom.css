@@ -97,6 +97,14 @@ article div {
     margin-bottom: .5rem;
 }
 
+.deuxblocs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
 #menu {
     font-size: 1.2vw;
     font-weight: 700;
