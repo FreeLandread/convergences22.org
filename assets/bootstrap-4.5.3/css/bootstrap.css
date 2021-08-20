@@ -4295,8 +4295,8 @@ input[type="button"].btn-block {
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   text-align: center;
 }
 
