@@ -375,13 +375,13 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: underline;
   text-decoration-color: #155724;
 }
 
 h4, .h4 {
-  font-size: 1.1rem;
+  font-size: .9rem;
 }
 
 h5, .h5 {
