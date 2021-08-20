@@ -4258,8 +4258,6 @@ input[type="button"].btn-block {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  background-color: rgb(44, 133, 66);;
-  border-color:rgb(44, 133, 66);
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
