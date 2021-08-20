@@ -117,13 +117,38 @@ article div {
     align-items: center;
 }
 
-#menu, #myTab  {
+#menu  {
     font-size: 1.2vw;
     font-weight: 700;
 }    
 @media (max-width: 50em) {
-    #menu, #myTab {
+    #menu {
         font-size: .7rem;
+        font-weight: 700;
+    }    
+}
+
+@media (min-width: 1200px) {
+    #menu {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }    
+}
+
+#myTab  {
+    font-size: 1.1vw;
+    font-weight: 700;
+}    
+@media (max-width: 50em) {
+    #myTab {
+        font-size: .6rem;
+        font-weight: 700;
+    }    
+}
+
+@media (min-width: 1200px) {
+    #myTab {
+        font-size: 1.2rem;
         font-weight: 700;
     }    
 }
