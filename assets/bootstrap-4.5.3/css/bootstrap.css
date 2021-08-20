@@ -372,6 +372,7 @@ h2, .h2 {
   text-decoration: underline;
   text-decoration-style: dashed;
   text-decoration-color: var(--secondary);
+  margin: 0 .5rem;
 }
 
 h3, .h3 {
