@@ -138,7 +138,12 @@ article div {
 #myTab  {
     font-size: 1.1vw;
     font-weight: 700;
-}    
+} 
+
+#myTab  .nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem;
+  }
 @media (max-width: 50em) {
     #myTab {
         font-size: .6rem;
@@ -152,7 +157,6 @@ article div {
         font-weight: 700;
     }    
 }
-
 
 .infosContact {
     max-width: 370px;
