@@ -65,7 +65,7 @@
 
                 <!-- div Rénov'Ordi -->
                 <article class="alert alert-success">
-                    <div class="deuxblocs">
+                    <div class="deuxblocs" style="justify-content:left;">
                         <div>
                             <h2>Rénov'Ordi</h2>
                         </div>
@@ -83,10 +83,9 @@
                             L'offre Rénov'Ordi</a> propose d'être plus efficace dans la gestion de votre parc matériel, en proposant de rénover vos machines en s'appuyant sur les solutions libres : Linux, firefox, Libre Office...
                         </p>
                         <p class="center">
-                            <a href="https://www.ubuntu-fr.org/" target="_blank"><img class="image" src="./assets/images/logo-kubuntu.png" /></a>
-                            <a href="https://www.mozilla.org/fr/firefox/new/" target="_blank"><img class="image" src="./assets/images/logo-firefox.png" /></a>
-                            <a href="https://fr.libreoffice.org/" target="_blank"><img class="imageh" src="./assets/images/logo-libre-office.png" />
-                            <img class="imageh" src="./assets/images/logo-writer-calc-impress-draw.png" /></a>
+                            <a href="#" data-toggle="modal" data-target="#modal_renovOrdis">
+                                <img class="imageh" src="./assets/images/renovOrdis-logo-web.png" />
+                            </a>                            
                         </p>
                         
                         <p>
@@ -96,7 +95,22 @@
                             La stabilité du système, l'optimisation de la gestion des ressources permet à des ordinateurs performants il y a 5 ans pour des usages de garder leurs performances et de ne pas devenir obsolètes.
                         </p>                       
                         <p>Convergences 22, vous propose d'auditer votre matériel, de rénover ce qui est nécessaire et d'installer et de configurer vos ordinateurs selon vos besoins.</p>                      
-                                        
+                        <div class="deuxblocsAround">
+                            <div>
+                                <p>Affichette<br />
+                                    <a href="#" data-toggle="modal" data-target="#modal_renovOrdis">
+                                        <img class="image" src="./assets/images/renovOrdis-miniature.jpg" />
+                                    </a>
+                                </p>                               
+                            </div> 
+                            <div>
+                               <p>Présentation PDF<br />
+                                <a href="/assets/documents/2021-08-25-RenovOrdis_affichette.pdf" target="_blank">
+                                    <img class="image" src="./assets/icones/pdf-icone.png" />
+                                 </a>
+                                </p> 
+                            </div>                            
+                        </div>                
                     </div>
                     <button class="btn btn-outline-secondary btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSummary1-1" aria-expanded="false" aria-controls="collapseSummary1-1"></button>
                 </article>
@@ -445,6 +459,26 @@
             </ul>        
 
         </div>
+
+    <!-- Modal Rénov'Ordis -->
+    <div class="modal fade" id="modal_renovOrdis" tabindex="-1" aria-labelledby="modal_renovOrdisLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="modal_renovOrdisLabel">Affichette Rénov'Ordis</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <img class="affiche" src="./assets/images/renovOrdis-affichette-web.jpg" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!-- Modal web causette-->
     <div class="modal fade" id="modal_web_causette" tabindex="-1" aria-labelledby="modal_web_causetteLabel" aria-hidden="true">

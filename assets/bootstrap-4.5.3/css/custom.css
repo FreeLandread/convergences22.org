@@ -140,6 +140,14 @@ article div {
     align-items: center;
 }
 
+.deuxblocsAround
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
 #menu  {
     font-size: 1.2vw;
     font-weight: 700;
