@@ -17,6 +17,9 @@ address {
 .bg-blanc {
     background-color: white;
 }
+.bg-vert-clair {
+    background-color: #e9f4bd;
+}
 
 article {
     width: 33rem;
@@ -210,6 +213,10 @@ article div {
 
 .text-dark {
     color: #343a40;
+}
+
+.text-fonce {
+color: #0b3202;
 }
 
 .bold {
