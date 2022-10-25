@@ -32,7 +32,7 @@ article {
 }
 
 article div.collapse:not(.show) {
-    height: 4.5rem !important;
+    height: 7rem !important;
     overflow: hidden;  
     display: -webkit-box;
     -webkit-line-clamp: 5;
@@ -40,7 +40,7 @@ article div.collapse:not(.show) {
 }
 
 article div.collapsing {
-    min-height: 4.5rem !important;
+    min-height: 7rem !important;
 }
 
 #Realisations article div.collapse:not(.show) {
