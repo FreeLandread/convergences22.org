@@ -55,6 +55,19 @@ article div.collapsing {
     min-height: 10rem !important;
 }
 
+#Presentation article div.collapse:not(.show) {
+    height: 10rem !important;
+    max-height: 10rem !important;
+    overflow: hidden;  
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+}
+
+#Presentation article div.collapsing {
+    min-height: 10rem !important;
+}
+
 article button {
     height: 1.7rem;
     margin-top: .5rem;
@@ -182,7 +195,8 @@ article div {
 #myTab  .nav-link {
     display: block;
     padding: 0.5rem 0.5rem;
-  }
+}
+
 @media (max-width: 50em) {
     #myTab {
         font-size: .6rem;
@@ -230,4 +244,11 @@ color: #0b3202;
 li {
     list-style-type: none;
     display:block;
+}
+
+.soustitre {
+    margin: 0.5rem 0.25rem 0.25rem 0;
+    padding: 0.25rem;
+    background-color: #ffffff;
+    border-radius: 0.375em;
 }
