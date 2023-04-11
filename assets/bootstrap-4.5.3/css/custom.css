@@ -212,6 +212,15 @@ article div {
     border: solid 1px rgba(170, 196, 206, 0.75);
 }
 
+.infosFresque {
+    width: 45%;
+    max-width: 370px;
+    padding: .3rem;
+    background-color: #e9f4bd;
+    border-radius: 0.375em;
+    border: solid 1px rgba(170, 196, 206, 0.75);
+}
+
 .localisation {
     padding-bottom: 1rem;
     font-size: .8rem;
@@ -252,4 +261,8 @@ li {
 
 .invisible {
     opacity: 0;
+}
+
+.text07 {
+    font-size: .7rem;
 }
