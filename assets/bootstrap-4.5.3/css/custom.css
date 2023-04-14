@@ -148,15 +148,15 @@ article div {
 .deuxblocs
 {
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     justify-content:space-between;
     align-items: center;
 }
 
 .deuxblocsAround
 {
-    display: flex;
-    flex-wrap:nowrap;
+    display: flex;    
+    flex-wrap:wrap;
     justify-content:space-around;
     align-items: center;
 }
