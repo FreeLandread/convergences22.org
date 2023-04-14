@@ -213,8 +213,9 @@ article div {
 }
 
 .infosFresque {
-    width: 45%;
+    width: auto;
     max-width: 370px;
+    margin:.5rem;
     padding: .3rem;
     background-color: #e9f4bd;
     border-radius: 0.375em;
