@@ -72,7 +72,7 @@
                     </div>
                     <div class="pasdemarges">
                         <a href="#" data-toggle="modal" data-target="#modal_renovOrdis">
-                            <img class="imageh" style="max-height: 7rem;" src="./assets/images/renovOrdis-logo-web.png" />
+                            <img class="imagev" style="max-height: 7rem;" src="./assets/images/renovOrdis-logo-web.png" />
                         </a>                            
                     </div>  
                 </div>                   
@@ -123,7 +123,7 @@
                         <h3>Côtes d'Armor</h3>
                     </div>
                     <div class="pasdemarges">                       
-                            <img class="imageh" style="max-height: 5rem;" src="./assets/images/logo-FDN.png" />                                                    
+                            <img class="imagev" style="max-height: 7rem;" src="./assets/images/logo-FDN.png" />                                                    
                     </div>  
                 </div>                      
                                             
@@ -145,12 +145,10 @@
                     <div class="conteneur infosFresque">
                         <h3>Atelier Pro</h3>
                         <p class="center">                           
-                            Présentation de l'atelier à destination des entreprises et organisations publiques.<br />
-                            Vous pouvez me contacter directement ou passer par le site de la Fresque du numérique.                           
-                        </p> 
-                         
-                            <p class="tarif center text-dark"><strong>1000 € HT / anim</strong><br /></p>
-                        
+                            Présentation de l'atelier à destination des entreprises et organisations publiques.<br />                                                     
+                        </p>                         
+                        <p class="tarif center text-dark"><strong>~ 1000 € HT / anim</strong><br />
+                        Demander un devis</p>                        
                         <p class="soustitre bg-vert-clair center"><a class="text07" href="https://drive.google.com/file/d/1dAYEEYgKFp8klLWQuNdVJ6zsG0fZLw1C/view" target="_blank" ><img style="max-height: 20px; max-width: 15px;" class="image" src="./assets/icones/pdf-icone-30x38.png"/> Brochure pro de la Fresque du numérique</a><br />
                         </p>
                                                 
@@ -159,12 +157,18 @@
                     <div class="conteneur infosFresque">
                         <h3>Atelier citoyen</h3>
                         <p class="center">                           
-                            Si vous souhaitez organiser un atelier à destination du grand public, vous pouvez me contacter directement ou passer par le site de la fresque du numérique en suivant le lien.<br />
+                            Pour l'organisation d'un atelier à destination du grand public.<br />
                         </p>
                         <p class="tarif center text-dark"><strong>Animation bénévole. <br />
                         Prix libre au chapeau</strong></p>
+                        <p class="center">Affichette<br />
+                            <a href="#" data-toggle="modal" data-target="#modal_fresqueDuNumerique">
+                                <img class="image" src="./assets/images/affichette-FresqueDuNumerique.jpg" />
+                            </a>
+                        </p>
                         <p class="soustitre bg-vert-clair center">
-                            <a class="text07 center" href="https://www.fresquedunumerique.org/citoyens.html" target="_blank">Site de la Fresque du numérique<br /></a>
+                             
+                            <a class="text07 center" href="https://www.fresquedunumerique.org" target="_blank">Site de la Fresque du numérique<br /></a>
                         </p>                        
                     </div>                  
                 </div>                                                                          
@@ -195,6 +199,7 @@
         </article>
     </div>
 </div>
+
     <!-- Modal Rénov'Ordis -->
     <div class="modal fade" id="modal_renovOrdis" tabindex="-1" aria-labelledby="modal_renovOrdisLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -207,6 +212,26 @@
             </div>
             <div class="modal-body">
                 <img class="affiche" src="./assets/images/renovOrdis-affichette-web.jpg" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Fresque du Numérique -->
+    <div class="modal fade" id="modal_fresqueDuNumerique" tabindex="-1" aria-labelledby="modal_fresqueDuNumeriqueLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="modal_fresqueDuNumeriqueLabel">Affichette Fresque du Numérique</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <img class="affiche" src="./assets/images/affichette-FresqueDuNumerique.jpg" />
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
