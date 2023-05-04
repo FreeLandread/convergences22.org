@@ -85,7 +85,6 @@ article div {
 .datePublication {
     display: flex;
     justify-content: flex-start;
-    font-size: smaller;
     text-decoration: none;
     margin: 0;
     padding: 0 .5rem 0 .5rem;
