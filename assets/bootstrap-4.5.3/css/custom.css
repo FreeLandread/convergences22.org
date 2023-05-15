@@ -21,6 +21,10 @@ address {
     background-color: #e9f4bd;
 }
 
+.blanc {
+    color : #ffffff;
+}
+
 article {
     width: 33rem;
     border-radius: 0.375em;
