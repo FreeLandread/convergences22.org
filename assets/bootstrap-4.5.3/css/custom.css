@@ -251,6 +251,10 @@ color: #0b3202;
     text-decoration-line: overline;
 }
 
+.barre {
+    text-decoration-line: line-through;
+}
+
 .center {
     text-align: center;
 }
