@@ -243,8 +243,20 @@ color: #0b3202;
     font-weight: bolder;
 }
 
+.underline {
+    text-decoration-line: underline;
+}
+
+.overline {
+    text-decoration-line: overline;
+}
+
 .center {
     text-align: center;
+}
+
+.margeHaute {
+    margin-top: .5rem;
 }
 
 li {

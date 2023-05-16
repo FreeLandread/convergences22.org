@@ -376,8 +376,8 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1rem;
-  text-decoration: underline;
+  font-size: .9rem;
+  text-decoration: none;
   text-decoration-color: #155724;
   margin-top: 1rem;
 }
